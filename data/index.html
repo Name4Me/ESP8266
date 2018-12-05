@@ -1,0 +1,40 @@
+<html>
+ <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="base.css">
+  <title>ESP 8266</title>
+  <script type="text/javascript" src="base.js"></script>
+  <script>
+
+  </script>
+  <script type="text/javascript" src="gauge.js"></script>
+ </head>
+ <body>
+  <div id="chart_div" style="width:400px; height: 200px;">
+  </div>
+  <div>
+   <p id="pin12" class ="text_pin">RELAY</p>
+   <input type="button" id="12" class ="button_pin" value="ON"/>
+  </div>
+
+  <div>
+   <p id="pin13" class ="text_pin">LED</p>
+   <input type="button" id="13" class ="button_pin" value="ON"/>
+  </div>
+  <div class ="ref">
+   <a href="/"><button>REFRESH</button></a>
+  </div>
+  <div class ="ref">
+   <a href="/reboot"><button>REBOOT</button></a>
+  </div>
+  <div class ="ref">
+   <a href="/upload"><button>UPLOAD</button></a>
+  </div>
+  <div class ="ref">
+   <a href="/update"><button>UPDATE</button></a>
+  </div>
+ </body>
+<html>

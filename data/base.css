@@ -1,0 +1,39 @@
+button {
+  color:red;
+  padding: 10px 27px;
+  width:158px;
+}
+.button_pin { 
+  text-align: center;
+  width: 158px;
+  height: 40px;
+  color:red;
+  /*background-color: #43a209;*/
+  /*margin: 0 auto;*/
+}
+.text_pin { 
+  text-align: center;
+  width: 98px;
+  color:white;
+  background-color: #ec1212;
+  margin: 0 auto;
+}
+
+.button_on {background-color: #43a209;}
+.button_off {/*background-color: #ec1212*/}
+p {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+div {
+  text-align: center;
+  margin: 5px 0px;
+}
+.ref {
+  margin-top: 20px;
+}
+#chart_div {
+  text-align: center;
+  margin: auto;
+}
